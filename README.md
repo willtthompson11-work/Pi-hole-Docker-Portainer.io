@@ -33,3 +33,7 @@ Copy `configs/01-netcfg.yaml.example` to `/etc/netplan/01-netcfg.yaml`, adjust f
 ```bash
 sudo chmod 600 /etc/netplan/01-netcfg.yaml
 sudo netplan try
+```
+## Lab Screenshots
+![Pi-hole Dashboard](Pi-hole%20dashboard.png)
+![Portainer Containers](Screenshot%202026-10-19%20212404.png)
