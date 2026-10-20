@@ -1,0 +1,22 @@
+# Environment variables and secrets (Never commit passwords/tokens)
+.env
+*.env
+*.secret
+*token*
+
+# Persistent Docker volume data & database files
+portainer_data/
+pihole_etc/
+pihole_dnsmasq/
+*.db
+
+# Backup and temporary config files
+*.bak
+*.tmp
+*backup*.yaml
+01-netcfg.yaml
+
+# OS-generated junk files
+.DS_Store
+Thumbs.db
+desktop.ini
